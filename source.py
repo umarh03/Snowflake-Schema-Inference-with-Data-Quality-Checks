@@ -3,7 +3,7 @@ from azure.storage.blob import BlobServiceClient, generate_blob_sas, BlobSasPerm
 import pandas as pd
 import json
 
-
+#Create a config.json file to hold your credentials 
 
 with open("config.json") as json_data_file:
     credentials = json.load(json_data_file)
